@@ -1,0 +1,589 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "hallo","hai","halo","hei","hello","hi","hy","pagi","siang","sore","malam","hay"
+      ],
+      "responses": [
+        "Hai! perkenalkan ini miowbot. disini miowbot bisa memberi informasi seputar  penyakit kucing  ,gejala serta cara mengatasi pneyakit yang sedang di derita kucing catlover",
+        "Halo! ini miowbot, salam kenal ya! catlover mau konsultasi tentang penyakit pada kucing, disni miowbot bisa memberikan  infromasi tentang jenis-jenis penyakit pada kucing",
+        "Helo! Ini miowbot ,miowbot akan membantu catlover dalam mengatasi penyakit pada kucing catlover",
+        "Hai! Miawbot disini, ada yang bisa dibantu?",
+        "hi! Kenalin aku miowbot, ada yang dapat kami bantu?"
+      ],
+      "context" : [""]
+    },
+    {
+     "tag": "goodbye",
+     "patterns": [
+      "Dah","Dadah","Bye","Selamat tinggal","Sampai jumpa","Bai","see yaa"
+     ],
+     "responses": [
+      "Bye!",
+      "Dadahh!",
+      "Good bye!",
+      "Dahh, semoga harimu menyenangkan yaa!",
+      "Sampai jumpa lagi!",
+      "See yaa:)"
+     ],
+     "context": [""]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati, semoga informasi dari miowbot dapat membantu ya",
+        "sama-sama semoha bermanfaat"
+      ],
+      "context" : [""]
+    },
+    {
+      "tag":"jawaban_tidak_terjawab",
+      "patterns": [
+        "cara menanganinya?",
+        "cara menangani?",
+        "bagaimana mengatasinya?",
+        "langkah menangani?",
+        "upaya mengatasi?",
+        "gejalanya apa?",
+        "apa gejalanya?",
+        "gejalanya penyakit tersebut?"
+      ],
+      "responses":[
+        "mohon maaf, tolong untuk turut sertakan nama penyakit yang dituju"
+      ],
+      "context" : [""]
+    },
+    {
+      "tag": "tidak_ada_jawaban",
+      "patterns": [""],
+      "responses": ["Yah sayang sekali informasi yang kamu butuhkan belum tersedia. kamu bisa mencoba kata kunci yang lain"], 
+     "context": [""]
+    }, 
+    {
+      "tag": "opsi",
+      "patterns": [
+        "Bagaimana cara kamu untuk dapat membantu kami?",
+        "Cara kalian membantu?",
+        "Cara kalian bantu kami?"        
+      ],
+      "responses": ["Hallo Miowers, kami dapat membantu kalian untuk berkonsultasi mengenai permasalahan pada kucing kalian. Untuk Miowers yang memiliki pertanyaan terkait persoalan pada kucing kalian kami dapat memberikan beberapa penjelasan!"],
+      "context": [""]
+    },
+    {
+      "tag": "pencipta",
+      "patterns":[
+         "Siapa pencipta Miowbot?",
+         "Pencipta Miowbot?",
+         "Siapa pencipta kamu?",
+         "Pencipta",
+         "Siapa pembuat Miowbot?",
+         "Pembuat Miowbot?",
+         "Siapa pembuat kamu?",
+         "Pembuat",
+         "Miowbot diciptakan oleh siapa",
+         "kamu dibuat siapa?",
+         "dibuat siapa",
+         "siapa yang buat"
+      ],
+      "responses": ["Miowbot dibuat oleh mahasiswa MSIB AI for start up by power academy X orbit future academy batch 3"],
+      "context":[""]
+    },
+    {
+      "tag": "Miowbot",
+      "patterns":[
+         "Miowbot itu apa?",
+         "kalian itu apa?",
+         "apa itu miowbot?",
+         "Miowbot",
+         "Miowbot apa"
+      ],
+      "responses": ["Miowbot adalah layan chat berbasis AI yang membahas seputar penyakit dan kesehatan pada kucing"],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_infeksi_corona",
+      "patterns": [
+        "Apa yang dimaksud infeksi corona?",
+        "Apa itu infeksi corona?",
+        "Apa infeksi corona?",
+        "infeksi corona",
+        "apa itu penyakit infeksi corona?",
+        "infeksi corona pada kucing"
+      ],
+      "responses": [
+        "infeksi corona adalah penyakit yang disebabkan oleh infeksi virus corona pada kucing"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_infekasi_corona",
+      "patterns": [
+        "gejala  infeksi corona?",
+        "tanda infeksi corona?",
+        "ciri ciri infeksi corona?",
+        "pertanda infeksi corona?",
+        "ciri infeksi corona?",
+        "infeksi corona pada kucing",
+        "kucing infeksi corona"
+      ],
+      "responses": [
+        "beberapa gejalanya yaitu demam, lesu, muntah,diare, serta perut membesar"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_infeksi_corona",
+      "patterns": [
+        "cara menangani penyakit infeksi corona pada kucing?",
+        "menangani penyakit infeksi corona?",
+        "menangani infeksi corona?",
+        "bagaimana mengatasi infeksi corona?",
+        "upaya penyembuhan infeksi corona",
+        "mengatasi infeksi corona",
+        "penanganan infeksi corona",
+        "langkah mengatasi infeksi corona",
+        "cara mengatasi infeksi corona",
+        "cara menangani infeksi corona",
+        "cara menangani infeksi corona pada kucing",
+        "cara mengatasi infeksi corona pada kucing"
+      ],
+      "responses": [
+        "pengobatan yang diberikan antara lain dengan memberikan obat antibiotik, antimuntah, predinsolone,cyclosphosphamide, recombinantion namun pengobatan ini hanya sebagai pertolongan pertama saja karena sifatnya hanya meringankan bukan menyembuhkan untuk penanganan lebih lanjut sebaiknya bisa di bawa ke dokter hewan "
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_felinea_panleukopenia",
+      "patterns": [
+        "Apa yang dimaksud filenea panleukopenia?",
+        "Apa itu filenea panleukopenia?",
+        "Apa filenea panleukopenia?",
+        "filenea panleukopenia",
+        "apa itu penyakit filenea panleukopenia?",
+        "filenea panleukopenia pada kucing",
+        "apa itu filenea panleukopenia pada kucing"
+      ],
+      "responses": [
+        "yaitu penyakit yang disebabakan oleh virus parvovirus virus ini dapat virus ini dapat membunuh sel-sel yang tumbuh pada sum-sum tulang terutama janin yang sedang berkembang"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_feline_panleukopenia?",
+      "patterns": [
+        "gejala  filenea panleukopenia?",
+        "tanda filenea panleukopenia?",
+        "ciri ciri filenea panleukopenia?",
+        "pertanda filenea panleukopenia?",
+        "ciri filenea panleukopenia?"
+      ],
+      "responses": [
+        "demam, lesu, muntah, diare dan tidak nafsu makan"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_felini_panlukopenia",
+      "patterns": [
+        "cara menangani penyakit filenea panleukopenia pada kucing?",
+        "menangani penyakit filenea panleukopenia?",
+        "menangani filenea panleukopenia?",
+        "bagaimana mengatasi filenea panleukopenia?",
+        "upaya penyembuhan filenea panleukopenia",
+        "mengatasi filenea panleukopenia",
+        "penanganan filenea panleukopenia",
+        "langkah mengatasi filenea panleukopenia",
+        "cara mengatasi filenea panleukopenia pada kucing"
+
+      ],
+      "responses": [
+        "memisahkan kucing yang terkena penyakit dari kucing yang lain ,bersihkan kandang dan tempat bermain kucing dengan disinfektan, beri makan kucing catlover sesering mungkin tapi makanan yang lunak dan mudah dicerna, lalu berikan juga vitamin kis kis pastils multi vit untuk meningkatkan kekebalan tubuh kucing catlover"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "pengertian_ispa_calici_virus",
+      "patterns": [
+        "Apa yang dimaksud ispa calici virus?",
+        "Apa itu ispa calici virus?",
+        "Apa ispa calici virus?",
+        "ispa calici virus",
+        "apa itu penyakit ispa calici virus?",
+        "penyakit ispa calici pada kucing"
+
+      ],
+      "responses": [
+      "adalah salah satu penyakit flu yang sering menyerang kucing yang disebabkan oleh virus caliciviradae"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejela_ispa_calici_virus",
+      "patterns": [
+        "gejala  ispa calici virus?",
+        "tanda ispa calici virus?",
+        "ciri ciri ispa calici virus?",
+        "pertanda ispa calici virus?",
+        "ciri ispa calici virus?",
+        "ciri kucing sakit ispa calici"  
+      ],
+      "responses": [
+        "tidak nafsu makan , demam ,lesu, kotoran mata menumpuk, bersin terus menurus , sesak napas, sariawan"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_ispa_calici_virus",
+      "patterns": [
+        "cara menangani penyakit ispa calici virus pada kucing?",
+        "menangani penyakit ispa calici virus?",
+        "menangani ispa calici virus?",
+        "bagaimana mengatasi ispa calici virus?",
+        "upaya penyembuhan ispa calici virus",
+        "mengatasi ispa calici virus",
+        "penanganan ispa calici virus",
+        "langkah mengatasi ispa calici virus",
+        "bagaimana mengatasi penyakit ispa calici pada kucing?"  
+      ],
+      "responses": [
+      "memberi obat antibiotik , memberi cairan intravena"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definsi_ispa_felini_viral_rhinocheitis",
+      "patterns": [
+        "Apa yang dimaksud ispa felini rhinocheitis?",
+        "Apa itu ispa felini rhinocheitis?",
+        "Apa ispa felini rhinocheitis?",
+        "ispa felini rhinocheitis",
+        "apa itu penyakit ispa felini rhinocheitis?"  
+      ],
+      "responses": [
+        "yaitu penyakit infeksi saluran pernapasan atas atau paru-paru pada kucing yang disebabkan oleh virus"
+      ]
+    },
+    {
+      "tag": "gejala_ispa_felini_viral_rhinocheitis",
+      "patterns": [
+        "gejala  ispa felini rhinocheitis?",
+        "tanda ispa felini rhinocheitis?",
+        "ciri ciri ispa felini rhinocheitis?",
+        "pertanda ispa felini rhinocheitis?",
+        "ciri ispa felini rhinocheitis?"  
+      ],
+      "responses": [
+        "salesma, batuk, bersin berulang kali,hipersalivaasi, discarge hidung, kerusakan selaput lendir mata, demam, tidak nafsu makan"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_ispa_felini_viral_rhinocheitis",
+      "patterns": [
+        "cara menangani penyakit ispa felini rhinocheitis pada kucing?",
+        "menangani penyakit ispa felini rhinocheitis?",
+        "menangani ispa felini rhinocheitis?",
+        "bagaimana mengatasi ispa felini rhinocheitis?",
+        "upaya penyembuhan ispa felini rhinocheitis",
+        "mengatasi ispa felini rhinocheitis",
+        "penanganan ispa felini rhinocheitis",
+        "langkah mengatasi ispa felini rhinocheitis"  
+      ],
+      "responses": [
+        "vaksinasi rutin menggunakan vaksin FHV-1 ,anak kucing berumur 6-12 minggu diberi vaksin mlv, isolasikan kucing catlover yang sedang sakit"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_radang_paru_paru_chlamydiosis",
+      "patterns": [
+        "Apa yang dimaksud radang paru-paru chlamydiosis?",
+        "Apa itu radang paru-paru chlamydiosis?",
+        "Apa radang paru-paru chlamydiosis?",
+        "radang paru-paru chlamydiosis",
+        "apa itu penyakit radang paru-paru chlamydiosis?"  
+      ],
+      "responses": [
+        "radang paru- paru adalah penyakit yang disebabkan oleh bakteri virus feline calicivirus"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_radang_paru_paru_chlamydiosis",
+      "patterns": [
+        "gejala  radang paru-paru chlamydiosis?",
+        "tanda radang paru-paru chlamydiosis?",
+        "ciri ciri radang paru-paru chlamydiosis?",
+        "pertanda radang paru-paru chlamydiosis?",
+        "ciri radang paru-paru chlamydiosis?"
+
+      ],
+      "responses": [
+        "tidak nafsu makan, flu, batuk, sesak nafas, kesulitan bernafas, hidung berwarna merah disertai pilek, bersin-bersin ,mata merah bahkan bengkak dan berair serta radang paru-paru"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_radang_paru_paru_chlamydiosis",
+      "patterns": [
+        "cara menangani penyakit radang paru-paru chlamydiosis pada kucing?",
+        "menangani penyakit radang paru-paru chlamydiosis?",
+        "menangani radang paru-paru chlamydiosis?",
+        "bagaimana mengatasi radang paru-paru chlamydiosis?",
+        "upaya penyembuhan radang paru-paru chlamydiosis",
+        "mengatasi radang paru-paru chlamydiosis",
+        "penanganan radang paru-paru chlamydiosis",
+        "langkah mengatasi radang paru-paru chlamydiosis"  
+      ],
+      "responses": [
+        "cara menanganinya catlover bersihkan mata dan hidung kucing yang kotor , mata yang sakit dapat dioleskan dengan salep mata yang mengandung tetrasiklin"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_cacingan",
+      "patterns": [
+        "Apa yang dimaksud cacingan?",
+        "Apa itu cacingan?",
+        "Apa cacingan?",
+        "cacingan",
+        "apa itu penyakit cacingan?"  
+      ],
+      "responses": [
+        " catlover! penyakit cacingan biasanya disebabkan oleh cacing mulai dari cacing gelang, cacing pita dan cacing kait yang menyerang kucing dalam berbabagai hal contohnya ketika anak kucing sedang menyusu pada induknya "
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_cacingan",
+      "patterns": [
+        "gejala  cacingan?",
+        "tanda cacingan?",
+        "ciri ciri cacingan?",
+        "pertanda cacingan?",
+        "ciri cacingan?",
+        "ciri kucing cacingan"  
+      ],
+      "responses": [
+        "gejala penyakit tersebut adalah diare, hewan kurus, rambut kusam, gusi terlihat tidak sehat, kotoran kucing yang ada cacingnya,  kucing muntah disertai cacing, menurunnya nafsu makan, letih dan lesu"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_cacingan",
+      "patterns": [
+        "cara menangani penyakit cacingan pada kucing?",
+        "menangani penyakit cacingan?",
+        "menangani radang cacingan?",
+        "bagaimana mengatasi cacingan?",
+        "upaya penyembuhan cacingan",
+        "mengatasi radang cacingan",
+        "penanganan radang cacingan",
+        "langkah mengatasi cacingan"  
+      ],
+      "responses": [
+        "Cara menanganinya catlovers memberi obat cacing pada kucing misalnya vermox, combantrin (pfizer), drontal plus (bayer), drontal cat (bayer) Jangan memberikan obat cacing pada kucing yang hamil karena dapat menyebabkan kematian pada anaknya"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_jamur",
+      "patterns": [
+        "Apa yang dimaksud jamur?",
+        "Apa itu jamur?",
+        "Apa jamur?",
+        "jamur",
+        "apa itu penyakit jamur?"  
+      ],
+      "responses": [
+        " catlover!  infeksi jamur kulit yang paling umum pada kucing. Infeksi jamur ini juga biasa disebut kurap. Penyebab jamuran pada kucing yang paling sering adalah Microsporum canis. Selain itu, jenis jamur lain seperti Microsporum gypseum dan Trichophyton mentagrophytes juga dapat menginfeksi kucing."
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_jamur",
+      "patterns": [
+        "gejala  jamur?",
+        "tanda jamur?",
+        "ciri ciri jamur?",
+        "pertanda jamur?",
+        "ciri jamur?",
+        "ciri kucing jamur"  
+      ],
+      "responses": [
+        "gejala penyakit tersebut adalah gatal-gatal rambut kusam rambut rontok dan terdapat kerak"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_jamur",
+      "patterns": [
+        "cara menangani penyakit jamur pada kucing?",
+        "menangani penyakit jamur?",
+        "menangani radang jamur?",
+        "bagaimana mengatasi jamur?",
+        "upaya penyembuhan jamur",
+        "mengatasi radang jamur",
+        "penanganan radang jamur",
+        "langkah mengatasi jamur"  
+      ],
+      "responses": [
+        "Cara menanganinya catlovers memberikan obat dalam misalnya itraconazole, memberikan minyak tawon pada tubuh kucing, meberikan cairan herbal, memberikan vitamin, memberikan salep pada kucing, dan semprot kucing dengan spry anti jamur."
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_ear_mites",
+      "patterns": [
+        "Apa yang dimaksud ear mites?",
+        "Apa itu ear mites?",
+        "Apa ear mites?",
+        "ear mites",
+        "apa itu penyakit ear mites?"  
+      ],
+      "responses": [
+        " catlover! penyakit ear mites Tungau telinga adalah jenis tungau yang hidup di bawah kulit pada daerah rongga telinga anak anjing atau kucing. Tungau telinga dapat menyebabkan luka dan radang pada bagian yang ditempati"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_ear_mites",
+      "patterns": [
+        "gejala  ear mites?",
+        "tanda ear mites?",
+        "ciri ciri ear mites?",
+        "pertanda ear mites?",
+        "ciri ear mites?",
+        "ciri kucing ear mites"  
+      ],
+      "responses": [
+        "gejala penyakit kucing sering menggoyang-goyangkan kepala, menggaruk dan mencakar telinga kotoran telinga berwarna coklat tua, gatal-gatal, bau di daerah telinga, luka di daerah telinga dan ujung hidung"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_ear_mites",
+      "patterns": [
+        "cara menangani penyakit ear mites pada kucing?",
+        "menangani penyakit ear mites?",
+        "menangani radang ear mites?",
+        "bagaimana mengatasi ear mites?",
+        "upaya penyembuhan ear mites",
+        "mengatasi radang ear mites",
+        "penanganan radang ear mites",
+        "langkah mengatasi ear mites"  
+      ],
+      "responses": [
+        "Cara menanganinya catlovers bersihkan kotoran telinga pada kucing menggunakan cutton bud, Bersihkan telinga kucing memakaikan astringent atau cairan pembersih telinga. Teteskan obat antiparasit pada tengkuk (spot on) yang ada antiparasit seperti selamctine"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_pinjal_kucing",
+      "patterns": [
+        "Apa yang dimaksud pinjal kucing?",
+        "Apa itu pinjal kucing?",
+        "Apa pinjal kucing?",
+        "pinjal kucing",
+        "apa itu penyakit pinjal kucing?"  
+      ],
+      "responses": [
+        " catlover! Pinjal kucing adalah salah satu jenis pinjal yang paling umum ditemukan di dunia. Sesuai namanya, pinjal kucing merupakan parasit pada kucing yang hidup dari menghisap darah."
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_pinjal kucing",
+      "patterns": [
+        "gejala  pinjal kucing?",
+        "tanda pinjal kucing?",
+        "ciri ciri pinjal kucing?",
+        "pertanda pinjal kucing?",
+        "ciri pinjal kucing?",
+        "ciri kucing pinjal kucing"  
+      ],
+      "responses": [
+        "gejala penyakit tersebut adalah gatal-gatal, terlihat parasit di sekitar punggung, sering menggarut, bulu rontokm lesu ,gelisah, dan anemia"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_pinjal_kucing",
+      "patterns": [
+        "cara menangani penyakit pinjal kucing pada kucing?",
+        "menangani penyakit pinjal kucing?",
+        "menangani radang pinjal kucing?",
+        "bagaimana mengatasi pinjal kucing?",
+        "upaya penyembuhan pinjal kucing",
+        "mengatasi radang pinjal kucing",
+        "penanganan radang pinjal kucing",
+        "langkah mengatasi pinjal kucing"
+      ],
+      "responses": [
+        "Cara menanganinya catlovers mandikan kucing dengan shampoo khusus, oleskan minyak telon pada kulit kucing, memberikan obat pinjal kucing, menyemprotkan spray obat pinjal ke tubuh kucing, dan memberi obat tetes tengkuk (spot on)"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "definisi_Scabies",
+      "patterns": [
+        "Apa yang dimaksud Scabies?",
+        "Apa itu Scabies?",
+        "Apa Scabies?",
+        "Scabies",
+        "apa itu penyakit Scabies?"
+
+      ],
+      "responses": [
+        " catlover! penyakit Scabies Scabies adalah penyakit kudis pada kucing. Scabies adalah nama lain untuk serangan tungau. Ada dua jenis kudis yang paling umum, yakni tungau Demodex cati (kudis hitam) dan Scabies sarcoptes (kudis merah). Kedua tungau ini bersembunyi di bawah kulit yang menyebabkan rasa gatal ekstrem dan bulu rontok pada kucing."
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "gejala_Scabies",
+      "patterns": [
+        "gejala  Scabies?",
+        "tanda Scabies?",
+        "ciri ciri Scabies?",
+        "pertanda Scabies?",
+        "ciri Scabies?",
+        "ciri kucing Scabies"
+
+      ],
+      "responses": [
+        "gejala penyakit tersebut adalah Gatal-gatal, penebalan kulit mati di sekitar kaki, telinga dan ujung hidung, dan  sering menggaruk garuk kepala"
+      ],
+      "context":[""]
+    },
+    {
+      "tag": "cara_menangani_Scabies",
+      "patterns": [
+        "cara menangani penyakit Scabies pada kucing?",
+        "menangani penyakit Scabies?",
+        "menangani radang Scabies?",
+        "bagaimana mengatasi Scabies?",
+        "upaya penyembuhan Scabies",
+        "mengatasi radang Scabies",
+        "penanganan radang Scabies",
+        "langkah mengatasi Scabies"
+
+      ],
+      "responses": [
+        "Cara menanganinya catlovers mencuci segera benda-benda yang berkaitan dengan kucing, mengkarentina kucing yang terkena scabies, mengolesi salep pada tubuh kucing, memberikan shampoo anti tungau dan disuntik anti scabies"
+      ],
+      "context":[""]
+    }
+
+    
+         
+                
+  ]
+}
